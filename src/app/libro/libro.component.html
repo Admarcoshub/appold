@@ -1,0 +1,9 @@
+<div class="panel panel-success">
+	<div class="panel-heading">
+		<h2>{{libro.titulo}}</h2>
+	</div>
+	<a href="#" (click)= "libro.cambiarVisibilidad()">Mostrar/Ocultar</a>
+	<p [hidden]="!libro.visible">{{ libro.resena }}</p>
+	<small>{{ libro.autor }}</small>
+	
+</div>
