@@ -5,5 +5,6 @@
 	<a href="#" (click)= "libro.cambiarVisibilidad()">Mostrar/Ocultar</a>
 	<p [hidden]="!libro.visible">{{ libro.resena }}</p>
 	<small>{{ libro.autor }}</small>
+	<img src="{{ libro.imagen }}" style="width:100%">
 	
 </div>

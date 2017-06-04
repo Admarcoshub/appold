@@ -11,8 +11,8 @@ export class LibroFormComponent implements OnInit {
 
 
   constructor() { }
-  	crear(titulo, resena, autor) {
-  		this.libroCreado.emit(new Libro(titulo, resena, autor));
+  	crear(titulo, resena, autor, imagen) {
+  		this.libroCreado.emit(new Libro(titulo, resena, autor, imagen));
   	}
   
   ngOnInit() {

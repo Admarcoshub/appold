@@ -15,7 +15,7 @@ import { LibroListaComponent } from './libro-lista/libro-lista.component';
     LibroFormComponent,
     LibroListaComponent
   ],
-  imports: [
+  imports: [  
     BrowserModule,
     FormsModule,
     HttpModule
